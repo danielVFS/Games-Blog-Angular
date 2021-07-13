@@ -5,8 +5,7 @@ import {
   HttpHandler,
   HttpRequest }
 from '@angular/common/http';
-import { Observable, throwError as observableThrowError } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Injectable()
 export class HttpHeadersInterceptor implements HttpInterceptor {
