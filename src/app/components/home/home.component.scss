@@ -97,5 +97,9 @@
 
   &-platform {
     width: 20px;
+    fill: black;
+    filter: invert(4%) sepia(3%) saturate(5201%) hue-rotate(190deg)
+      brightness(99%) contrast(82%);
+    font-weight: bold;
   }
 }
