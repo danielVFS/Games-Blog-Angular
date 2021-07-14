@@ -82,8 +82,7 @@
   }
 
   &-name {
-    color: #7f8084;
-    font-weight: 700;
+    color: #000;
     font-size: 22px;
     margin-bottom: 20px;
     white-space: nowrap;
@@ -97,6 +96,7 @@
 
   &-platform {
     width: 20px;
+    margin-right: 5px;
     fill: black;
     filter: invert(4%) sepia(3%) saturate(5201%) hue-rotate(190deg)
       brightness(99%) contrast(82%);
